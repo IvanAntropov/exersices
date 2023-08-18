@@ -1,4 +1,5 @@
 # Реализация сортировки пузырьком
+# В этой сортировке цифра, будто пузырек, прогоняется по всему массиву если его правый/левый сосед меньше/больше него
 
 def bubble_sort(array: list[int]) -> list[int]:
     array_length = len(array)  # The length of the array list
