@@ -14,4 +14,5 @@ def insertion_sort(array: list[int]) -> list[int]:
 
 
 unsorted_array: list[int] = [2, 4, 5, 1, 3]
-print(insertion_sort(unsorted_array))
+print("Unsorted list: ",  unsorted_array)
+print("Sorted list: ", insertion_sort(unsorted_array))
